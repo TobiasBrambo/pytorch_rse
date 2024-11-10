@@ -45,7 +45,7 @@ class RSE(nn.Module):
 
 
 if __name__ == "__main__":
-    from torchvision.models import resnext50_32x4d, resnet18
+    from torchvision.models import resnet18
 
     model = resnet18()
     print(model)
